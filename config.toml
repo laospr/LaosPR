@@ -1,0 +1,96 @@
+baseURL = "/"
+languageCode = "en_us"
+defaultContentLanguage = "lo"
+defaultContentLanguageInSubdir = true
+title = "LaosPR - Please reconsider the local Lao wage rates"
+theme = "hugo-laospr"
+publishDir = "public"
+
+[params]
+  email = "laospr@gmail.com"
+  phone = "+856 20 59 965 684"
+  favicon = "images/favicon.png"
+  DateForm = "October 1, 2018"
+  year = 2018
+  showSubheader = true
+  showServices = true
+  showRecentWorks = false
+  showDownload = false
+  showClients = false
+
+  footerEnableContact = false
+  footerEnableFollowme = false
+  footerEnableTextWidget = false
+  footerEnableFormWidget = false
+
+# Lao
+[languages.lo]
+  languageName = "ລາວ"
+
+[languages.lo.params]
+    name = "ນະຄອນຄຳ ຊົງມີໄຊ"
+    description = "ຍ້ອນຫຍັງ ແຮງງານລາວ ຈຶ່ງລາຄາຖືກ..."
+    address = "ຫຼວງພະບາງ, ສປປລາວ"
+    background = ""
+
+# Main menu
+[[languages.lo.menu.main]]
+  name = "ໜ້າຕັ້ງຕົ້ນ"
+  url = "/"
+  weight = 1
+
+# English
+[languages.en]
+  languageName = "English"
+
+[languages.en.params]
+    name = "Nakhonekham Xongmixay"
+    description = "Why Lao wage rates is low"
+    address = "Luang Prabang, Lao PDR"
+    background = ""
+
+
+  # Main menu
+  [[languages.en.menu.main]]
+      name = "home"
+      url = "/en/"
+      weight = 1
+
+[params.google.analytics]
+    trackerID = "UA-125586811-1"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/lohn.xongmixay"
+  icon = "fa-facebook-square"
+  footer = false
+  sharethis = true
+  network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nakhonekham"
+  icon = "fa-twitter-square"
+  footer = false
+  sharethis = true
+  network = "twitter"
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+NakhonekhamXONGMIXAY"
+  icon = "fa-google-plus-square"
+  footer = false
+  sharethis = true
+  network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/lohnxongmixay/"
+  icon = "fa-linkedin-square"
+  footer = true
+  sharethis = true
+  network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/laospr"
+  icon = "fa-github-square"
+  footer = false
+  sharethis = true
+  network = "github"

@@ -1,0 +1,3 @@
+[submodule "themes/hugo-laospr"]
+	path = themes/hugo-laospr
+	url = https://github.com/laospr/hugo-laospr.git
