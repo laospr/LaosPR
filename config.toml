@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en_us"
 defaultContentLanguage = "lo"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 title = "LaosPR - Please reconsider the local Lao wage rates"
 theme = "hugo-laospr"
 publishDir = "public"
